@@ -12,6 +12,31 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.Izq{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  margin-left: 10px;
+}
+
+.Izq ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  gap: 10px;
+}
+
+.Der{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
 }
 
 .profile-image {
