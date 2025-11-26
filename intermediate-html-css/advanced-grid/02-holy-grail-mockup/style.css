@@ -27,9 +27,9 @@
   background-color: #393f4d;
   grid-area: header;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-  "logo menu menu";
+  "logo menu menu menu";
 }
 
 .logo{
@@ -39,7 +39,7 @@
 
 .menu{
   grid-area: menu;
-  justify-self: center;
+  
 }
 
 .menu ul{
